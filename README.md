@@ -327,7 +327,7 @@ sns.heatmap(r_all, cmap="Blues", robust=True, annot = True)
 
 
     
-![png](doc/doc/output_14_1.png)
+![png](doc/output_14_1.png)
     
 
 

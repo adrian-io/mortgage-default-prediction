@@ -340,7 +340,7 @@ sns.heatmap(r_all, cmap="Blues", robust=True, annot = True)
 
 
     
-![png](output_14_1.png)
+![png](doc/doc/output_14_1.png)
     
 
 
@@ -363,7 +363,7 @@ for i in range(0, 17):
 
 
     
-![png](output_16_0.png)
+![png](doc/output_16_0.png)
     
 
 
@@ -389,7 +389,7 @@ for i in range(0, 18):
 
 
     
-![png](output_18_0.png)
+![png](doc/output_18_0.png)
     
 
 
@@ -456,7 +456,7 @@ for i in range(0, 18):
 
 
     
-![png](output_22_0.png)
+![png](doc/output_22_0.png)
     
 
 
@@ -738,7 +738,7 @@ plt.show()
 
 
     
-![png](output_40_0.png)
+![png](doc/output_40_0.png)
     
 
 
@@ -878,7 +878,7 @@ plt.show()
 
 
     
-![png](output_46_1.png)
+![png](doc/output_46_1.png)
     
 
 
@@ -949,7 +949,7 @@ roc_auc_score(y_test, y_score)
 
 
     
-![png](output_49_1.png)
+![png](doc/output_49_1.png)
     
 
 
@@ -1107,7 +1107,7 @@ plt.show()
 
 
     
-![png](output_55_2.png)
+![png](doc/output_55_2.png)
     
 
 
@@ -1180,7 +1180,7 @@ plt.show()
 
 
     
-![png](output_59_1.png)
+![png](doc/output_59_1.png)
     
 
 
@@ -1308,7 +1308,7 @@ plt.show()
 
 
     
-![png](output_64_1.png)
+![png](doc/output_64_1.png)
     
 
 
@@ -1374,7 +1374,7 @@ plt.show()
 
 
     
-![png](output_67_2.png)
+![png](doc/output_67_2.png)
     
 
 
@@ -1533,7 +1533,7 @@ plt.show()
 
 
     
-![png](output_76_3.png)
+![png](doc/output_76_3.png)
     
 
 
@@ -1597,7 +1597,7 @@ plt.show()
 
 
     
-![png](output_79_1.png)
+![png](doc/output_79_1.png)
     
 
 
@@ -1736,7 +1736,7 @@ plt.show()
 
 
     
-![png](output_83_3.png)
+![png](doc/output_83_3.png)
     
 
 
@@ -1803,7 +1803,7 @@ plt.show()
 
 
     
-![png](output_87_2.png)
+![png](doc/output_87_2.png)
     
 
 
@@ -1932,7 +1932,7 @@ plt.show()
 
 
     
-![png](output_92_3.png)
+![png](doc/output_92_3.png)
     
 
 
@@ -1994,7 +1994,7 @@ plt.show()
 
 
     
-![png](output_96_1.png)
+![png](doc/output_96_1.png)
     
 
 
@@ -2161,7 +2161,7 @@ plt.show()
 
 
     
-![png](output_104_1.png)
+![png](doc/output_104_1.png)
     
 
 
@@ -2328,7 +2328,7 @@ plt.show()
 
 
     
-![png](output_111_2.png)
+![png](doc/output_111_2.png)
     
 
 
@@ -2473,7 +2473,7 @@ plt.show()
 
 
     
-![png](output_119_2.png)
+![png](doc/output_119_2.png)
     
 
 

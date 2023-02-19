@@ -151,19 +151,6 @@ data.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2510,25 +2497,6 @@ We use four performance measures for evaluation: Precision, Recall, F1-Score and
 The recall and the AUC-score are the most informative metrics with regard to the imbalanced dataset.
 
 
-
-
-```python
-#@title
-%%HTML
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-</style>
 <table class="table table-bordered table-hover table-sm"> 
   <thead class="thead-dark">
     <tr>
@@ -2552,160 +2520,48 @@ The recall and the AUC-score are the most informative metrics with regard to the
   <tbody>
     <tr>
       <th  class="table-dark text-center">Precision</th>
-
       <td class="text-center">0.59</td>
       <td class="text-center">0.60</td>
       <td class="text-center">0.62</td>
-      
       <td class="text-center">0.59</td>
       <td class="text-center">0.60</td>
       <td class="text-center">0.61</td>
-      
       <td class="text-center">0.60</td>
       <td class="text-center">0.59</td>
       <td class="text-center">0.62</td>
     </tr>
     <tr>
       <th  class="table-dark  text-center">Recall</th>
-
       <td class="text-center">0.64</td>
       <td class="text-center">0.66</td>
       <td class="text-center">0.62</td>
-      
       <td class="text-center">0.64</td>
       <td class="text-center">0.65</td>
       <td class="text-center">0.61</td>
-      
       <td class="text-center">0.59</td>
       <td class="text-center">0.63</td>
       <td class="text-center">0.62</td>
     </tr>
     <tr>
       <th  class="table-dark  text-center" >F1-Score</th>
-
       <td class="text-center">0.56</td>
       <td class="text-center">0.58</td>
       <td class="text-center">0.61</td>
-      
       <td class="text-center">0.55</td>
       <td class="text-center">0.56</td>
       <td class="text-center">0.60</td>
-      
       <td class="text-center">0.60</td>
       <td class="text-center">0.59</td>
       <td class="text-center">0.61</td>
     </tr>
     <tr>
       <th  class="table-dark text-center">AUC</th>
-
       <td class="text-center">0.67</td>
       <td class="text-center">0.67</td>
       <td class="text-center">0.65</td>
-      
       <td class="text-center">0.68</td>
       <td class="text-center">0.70</td>
       <td class="text-center">0.67</td>
-      
-      <td class="text-center">0.69</td>
-      <td class="text-center">0.69</td>
-      <td class="text-center">0.70</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
-</style>
-<table class="table table-bordered table-hover table-sm"> 
-  <thead class="thead-dark">
-    <tr>
-      <th rowspan="2" class="text-center center align-middle">Metrics/Models</th>
-      <th colspan="3" class="text-center">Logistic Regression</th>
-      <th colspan="3" class="text-center">Support Vector Machine</th>
-      <th colspan="3" class="text-center">Random Forest</th>
-    </tr>
-    <tr>
-      <th class="text-center">imbalanced</th>
-      <th class="text-center">SMOTE</th>
-      <th class="text-center">undersampled</th>
-      <th class="text-center">imbalanced</th>
-      <th class="text-center">SMOTE</th>
-      <th class="text-center">undersampled</th>
-      <th class="text-center">imbalanced</th>
-      <th class="text-center">SMOTE</th>
-      <th class="text-center">undersampled</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th  class="table-dark text-center">Precision</th>
-
-      <td class="text-center">0.59</td>
-      <td class="text-center">0.60</td>
-      <td class="text-center">0.62</td>
-
-      <td class="text-center">0.59</td>
-      <td class="text-center">0.60</td>
-      <td class="text-center">0.61</td>
-
-      <td class="text-center">0.60</td>
-      <td class="text-center">0.59</td>
-      <td class="text-center">0.62</td>
-    </tr>
-    <tr>
-      <th  class="table-dark  text-center">Recall</th>
-
-      <td class="text-center">0.64</td>
-      <td class="text-center">0.66</td>
-      <td class="text-center">0.62</td>
-
-      <td class="text-center">0.64</td>
-      <td class="text-center">0.65</td>
-      <td class="text-center">0.61</td>
-
-      <td class="text-center">0.59</td>
-      <td class="text-center">0.63</td>
-      <td class="text-center">0.62</td>
-    </tr>
-    <tr>
-      <th  class="table-dark  text-center" >F1-Score</th>
-
-      <td class="text-center">0.56</td>
-      <td class="text-center">0.58</td>
-      <td class="text-center">0.61</td>
-
-      <td class="text-center">0.55</td>
-      <td class="text-center">0.56</td>
-      <td class="text-center">0.60</td>
-
-      <td class="text-center">0.60</td>
-      <td class="text-center">0.59</td>
-      <td class="text-center">0.61</td>
-    </tr>
-    <tr>
-      <th  class="table-dark text-center">AUC</th>
-
-      <td class="text-center">0.67</td>
-      <td class="text-center">0.67</td>
-      <td class="text-center">0.65</td>
-
-      <td class="text-center">0.68</td>
-      <td class="text-center">0.70</td>
-      <td class="text-center">0.67</td>
-
       <td class="text-center">0.69</td>
       <td class="text-center">0.69</td>
       <td class="text-center">0.70</td>

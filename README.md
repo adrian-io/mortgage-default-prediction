@@ -422,19 +422,6 @@ data["log(NOI Ratio)"] = np.log(data["NOI Ratio"])
 ```
 
 
-    ---------------------------------------------------------------------------
-
-    NameError                                 Traceback (most recent call last)
-
-    <ipython-input-1-c6debd93c9ba> in <module>()
-          1 #@title
-    ----> 2 data["log(Balance)"] = np.log(data["Balance"])
-          3 data["log(NOI)"] = np.log(data["NOI"])
-          4 data["log(DSCR)"] = np.log(data["DSCR"])
-          5 data["log(PV Ratio)"] = np.log(data["PV Ratio"])
-    
-
-    NameError: name 'np' is not defined
 
 
 
